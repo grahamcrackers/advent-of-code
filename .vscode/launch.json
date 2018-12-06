@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Transform",
+            "program": "${workspaceFolder}\\src\\app\\index.js",
+            "args": [
+                "JED19019"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Compare",
+            "program": "${workspaceFolder}\\src\\app\\compare-output\\index.js",
+            "args": [
+                "JED19019"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        }
+    ]
+}
